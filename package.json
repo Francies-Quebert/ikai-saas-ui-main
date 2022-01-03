@@ -1,0 +1,122 @@
+{
+  "name": "ekai-reail-and-ecommerce-sloution-ui",
+  "version": "1.1.0",
+  "private": true,
+  "main": "public/electron.js",
+  "description": "Ekai Retail & E-Commerce Solution",
+  "author": "Hariom Baijnath Shah",
+  "build": {
+    "appId": "ekail-retail.service",
+    "win": {
+      "icon": "build/icon.png",
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "set PORT=3023 && craco start",
+    "react-build": "craco build",
+    "react-test": "craco test",
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "build": "npm run react-build",
+    "electron": "concurrently \"cross-env BROWSER=none npm run start\" \"wait-on http://localhost:3005 && electron .\""
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.0.0",
+    "@craco/craco": "^5.6.4",
+    "@material-ui/core": "^4.9.12",
+    "antd": "^4.3.5",
+    "array-move": "^4.0.0",
+    "autoprefixer": "^9",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^3.5.1",
+    "craco-less": "^1.17.0",
+    "cross-env": "^7.0.2",
+    "cryptr": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "electron": "^10.1.4",
+    "electron-is-dev": "^1.2.0",
+    "feather-icons": "^4.24.1",
+    "firebase": "^7.14.4",
+    "firebase-admin": "^8.12.1",
+    "formik": "^2.1.4",
+    "js-file-download": "^0.4.12",
+    "jsreport-browser-client-dist": "^1.3.0",
+    "leaflet": "^1.5.1",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^7",
+    "qrcode.react": "^1.0.0",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-sweetalert": "^4.4.1",
+    "react-ckeditor-component": "^1.1.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-countdown-now": "^2.1.2",
+    "react-countup": "^5.2.0",
+    "react-csv-reader": "^3.3.1",
+    "react-datepicker": "^2.14.1",
+    "react-feather": "^2.0.3",
+    "react-file-base64": "^1.0.3",
+    "react-google-charts": "^3.0.15",
+    "react-highlight-words": "^0.16.0",
+    "react-hook-form": "^3.28.7",
+    "react-hotkeys-hook": "^2.4.0",
+    "react-idle-timer": "^4.4.2",
+    "react-loading-overlay": "^1.0.1",
+    "react-pdf": "^5.3.2",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^7.2.4",
+    "react-render-html": "^0.6.0",
+    "react-responsive-carousel": "^3.2.9",
+    "react-responsive-modal": "^4.0.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.1",
+    "react-router-scroll-4": "^1.0.0-beta.2",
+    "react-scripts": "^3.4.1",
+    "react-slick": "^0.25.2",
+    "react-sortable-hoc": "^2.0.0",
+    "react-stepzilla": "^6.0.2",
+    "react-switch-lang": "^1.0.2",
+    "react-table": "^6.10.3",
+    "react-tabs": "^3.0.0",
+    "react-times": "^3.1.12",
+    "react-to-pdf": "^0.0.11",
+    "react-toastify": "^5.4.0",
+    "reactstrap": "^8.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.18.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+    "yup": "^0.28.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 edge version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}

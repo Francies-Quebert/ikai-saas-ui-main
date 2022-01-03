@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  svg {
+    vertical-align: baseline;
+  }
+}
+
+@layer components {
+  .card-custom-tw {
+    @apply shadow-md border border-primary-light border-solid rounded bg-white;
+  }
+
+  .border-light-tw{
+    @apply  border-solid border-primary-light;
+  }
+  /* .main-div {
+    @apply border border-black font-body w-44;
+  }
+  .div-border {
+    @apply divide-y divide-black  mb-96;
+  }
+  .menu-hdr {
+    @apply bg-blue-300 font-bold font-body p-2;
+  }
+  .menu-list {
+    @apply space-y-2 font-semibold cursor-pointer max-h-screen h-96 font-lato;
+  }
+  .m-list-item {
+    @apply bg-yellow-500  hover:text-gray-50 hover:bg-green-400 transition duration-100 transform hover:scale-110 p-2;
+  }
+} */
+}
+
+/* @layer utilities {
+  @variants active {
+    .text-red-500 {
+      text: red-500;
+    }
+  }
+} */

@@ -1,0 +1,155 @@
+---------------------LivKwick-------------------------------
+REACT_APP_API_PATH_LIVE='http://13.127.238.203:3010/'
+REACT_APP_API_PATH_DEV='http://192.168.31.182:3010/'
+REACT_APP_VERSION='1.1.2'
+REACT_APP_CRYPTOKEY='Skyelint@2020'
+REACT_APP_PROJECT_TYPE='SERVICE'
+REACT_APP_CLIENT_CODE='LIVKWICK'
+REACT_APP_API_KEY='AIzaSyDN78JPEsNlo_msP0Ku5QYgcvXgVJuOIn8'
+REACT_APP_AUTH_DOMAIN='livkwick.firebaseapp.com'
+REACT_APP_DATABASE_URL='https://livkwick.firebaseio.com'
+REACT_APP_PROJECT_ID='livkwick'
+REACT_APP_STORAGE_BUCKET='livkwick.appspot.com'
+REACT_APP_MESSAGING_SENDER_ID='800729851095'
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyDN78JPEsNlo_msP0Ku5QYgcvXgVJuOIn8",
+    authDomain: "livkwick.firebaseapp.com",
+    databaseURL: "https://livkwick.firebaseio.com",
+    projectId: "livkwick",
+    storageBucket: "livkwick.appspot.com",
+    messagingSenderId: "800729851095",
+    appId: "1:800729851095:web:fc5aaab1238102f614bc92",
+    measurementId: "G-GHZY9JN5B2",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+---------------------LivKwick-------------------------------
+
+---------------------Sofuto-------------------------------
+REACT_APP_API_PATH_LIVE='http://13.127.238.203:3015/'
+REACT_APP_API_PATH_DEV='http://192.168.31.182:3015/'
+REACT_APP_VERSION='1.1.2'
+REACT_APP_CRYPTOKEY='Skyelint@2020'
+REACT_APP_API_KEY='AIzaSyCe6qvwurnNloaHtOCS6Z0-AygRNtSyUO0'
+REACT_APP_AUTH_DOMAIN='sofuto-e1728.firebaseapp.com'
+REACT_APP_DATABASE_URL='https://sofuto-e1728.firebaseio.com'
+REACT_APP_PROJECT_ID='sofuto-e1728'
+REACT_APP_STORAGE_BUCKET='sofuto-e1728.appspot.com'
+REACT_APP_MESSAGING_SENDER_ID='392064045994'
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyCe6qvwurnNloaHtOCS6Z0-AygRNtSyUO0",
+    authDomain: "sofuto-e1728.firebaseapp.com",
+    databaseURL: "https://sofuto-e1728.firebaseio.com",
+    projectId: "sofuto-e1728",
+    storageBucket: "sofuto-e1728.appspot.com",
+    messagingSenderId: "392064045994",
+    appId: "1:392064045994:web:e9570c3dc414ff1630d1d3",
+    measurementId: "G-7LK1VVJ91G",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+---------------------Sofuto-------------------------------
+
+
+---------------------Nurses Anywhere-------------------------------
+REACT_APP_API_PATH_LIVE='http://13.127.238.203:3020/'
+REACT_APP_API_PATH_DEV='http://13.127.238.203:3020/'
+REACT_APP_VERSION='1.1.2'
+REACT_APP_CRYPTOKEY='Skyelint@2020'
+REACT_APP_PROJECT_TYPE='SERVICE'
+REACT_APP_CLIENT_CODE='NA'
+REACT_APP_API_KEY='AIzaSyArmDL_vhjzxM8mvzpnBGLk6erjIMG3Dmk'
+REACT_APP_AUTH_DOMAIN='nurses-anywhere.firebaseapp.com'
+REACT_APP_DATABASE_URL='https://nurses-anywhere.firebaseio.com'
+REACT_APP_PROJECT_ID='nurses-anywhere'
+REACT_APP_STORAGE_BUCKET='nurses-anywhere.appspot.com'
+REACT_APP_MESSAGING_SENDER_ID='138878960606'  
+REACT_APP_PRIMARY_COLOR='#1890ff'
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyArmDL_vhjzxM8mvzpnBGLk6erjIMG3Dmk",
+    authDomain: "nurses-anywhere.firebaseapp.com",
+    databaseURL: "https://nurses-anywhere.firebaseio.com",
+    projectId: "nurses-anywhere",
+    storageBucket: "nurses-anywhere.appspot.com",
+    messagingSenderId: "138878960606",
+    appId: "1:138878960606:web:5e9392742d0f4bb721d34f",
+    measurementId: "G-9NND40K5W4",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+---------------------Nurses Anywhere-------------------------------
+
+
+---------------------Skyelint Dev-------------------------------
+REACT_APP_API_PATH_LIVE='http://192.168.0.109:3010/'
+REACT_APP_API_PATH_DEV='http://192.168.0.109:3010/'
+REACT_APP_VERSION='1.1.2'
+REACT_APP_PROJECT_TYPE='SERVICE'
+REACT_APP_CLIENT_CODE='NA'
+REACT_APP_CRYPTOKEY='Skyelint@2020'
+REACT_APP_API_KEY='AIzaSyDYsdtArW1XKKfv8p0DylFvqPYaBZqKJ7c'
+REACT_APP_AUTH_DOMAIN='skyelint-dev.firebaseapp.com'
+REACT_APP_DATABASE_URL='https://skyelint-dev.firebaseio.com'
+REACT_APP_PROJECT_ID='skyelint-dev'
+REACT_APP_STORAGE_BUCKET='skyelint-dev.appspot.com'
+REACT_APP_MESSAGING_SENDER_ID='117049918218'
+REACT_APP_PRIMARY_COLOR='#fb8a2d'
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyDYsdtArW1XKKfv8p0DylFvqPYaBZqKJ7c",
+    authDomain: "skyelint-dev.firebaseapp.com",
+    databaseURL: "https://skyelint-dev.firebaseio.com",
+    projectId: "skyelint-dev",
+    storageBucket: "skyelint-dev.appspot.com",
+    messagingSenderId: "117049918218",
+    appId: "1:117049918218:web:c43fc90cf099dac51f30f3",
+    measurementId: "G-15BX5FWW60",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+---------------------Skyelint Dev-------------------------------
+
+----------------------------------------------------------------
+Restaurant
+----------------------------------------------------------------
+ modifyVars: {
+              "@primary-color": "#fb8a2d",
+              "@font-size-base": "14px",
+              "@link-color": "#fb8a2d",
+            },
+----------------------------------------------------------------
+End Restaurant
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Service
+----------------------------------------------------------------
+  modifyVars: {
+              "@primary-color": "#1890ff",
+              "@font-size-base": "14px",
+              "@link-color": "#1890ff",
+            },
+----------------------------------------------------------------
+End Service
+----------------------------------------------------------------
+
+

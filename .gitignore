@@ -1,0 +1,8 @@
+.svn/
+build/
+node_modules/
+dist/
+*.lock
+*.env
+debug.log
+build.rar

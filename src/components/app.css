@@ -1,0 +1,39 @@
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  /* background: rgba(4, 20, 241, 0.2); */
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.logo_name{
+  color: #246DEA;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 0 0 12px;
+    /* color: #fff; */
+    font-weight: 600;
+    /* font-size: 20px; */
+    vertical-align: bottom;
+    animation: fade-in;
+    animation-duration: .3s;
+    line-height: 1.5715
+}
+
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab{
+  text-align: left !important;
+}
