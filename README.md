@@ -1,3 +1,3 @@
 "#skyelint-saas-ui" 
 # skyelint-saas-ui
-This is an Out Dataed UI of ikai upgraded to Typescript 
+This is an Out Dated UI of ikai upgraded to Typescript 
